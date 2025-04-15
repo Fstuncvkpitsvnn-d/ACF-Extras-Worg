@@ -2,7 +2,7 @@
 
 ## About this repository
 
-As a content addon for [Armored Combat Framework 3](https://github.com/Stooberton/ACF-3), Worg ACF Extras is a modification of [ClockEFFX's ACF-Extra](https://github.com/ClockEFFX/ACF-Extra) which was originally created by [gamerpaddy](https://steamcommunity.com/id/gamerpaddy).
+As a content addon for [Armored Combat Framework 3](https://github.com/Stooberton/ACF-3), ACF Extras Worg is a modification of [ClockEFFX's ACF-Extra](https://github.com/ClockEFFX/ACF-Extra) which was originally created by [gamerpaddy](https://steamcommunity.com/id/gamerpaddy).
 
 ## What? Why?
 _WACFE_ modified by way of:
