@@ -17,17 +17,17 @@ do
 		Sound		 = "acf_engines/i4_petrolmedium2.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
-		Mass		 = 110,
+		Mass		 = 160,
 		Torque		 = 165,
 		FlywheelMass = 0.2,
 		RPM = {
-			Idle	= 1000,
-			Limit	= 2650,
+			Idle	= 800,
+			Limit	= 4000,
 		},
 		Preview = {
 			FOV = 80,
 		},
-	}}
+	})
 	
 	-- new petrol
 	
