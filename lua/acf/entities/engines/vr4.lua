@@ -13,7 +13,7 @@ do
 	Engines.RegisterItem( "1.6-VR4", "VR4", {
 		Name		 = "[ACFE] 1.6L VR4 Petrol",
 		Description	 = "Sporty little VR4, looks like a popcorn bucket.",
-		Model		 = "models/engines/vr4s.mdl",
+		Model		 = "models/engine/vr4s.mdl",
 		Sound		 = "acf_engines/vrs.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
