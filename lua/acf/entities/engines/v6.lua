@@ -1,9 +1,9 @@
 local ACF = ACF
 local Engines = ACF.Classes.Engines
 
-Engines.Register( "V6", {
-	Name = "V6 Engine",
-})
+//Engines.Register( "V6", {
+//	Name = "V6 Engine",
+//})
 
 
 do

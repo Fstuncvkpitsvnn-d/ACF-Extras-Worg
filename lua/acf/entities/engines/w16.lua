@@ -16,7 +16,7 @@ do
 	Engines.RegisterItem( "8.4-W16", "W16", {
 		Name		 = "[REBAL] 8.4L W16 Petrol",
 		Description	 = "I hate you if you use this engine. The Block is made of cast iron because I hate you.",
-		Model		 = "models/engine/w16s.mdl",
+		Model		 = "models/engines/w16s.mdl",
 		Sound		 = "acf_engines/w16small.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
@@ -35,7 +35,7 @@ do
 	Engines.RegisterItem( "16.4-W16", "W16", {
 		Name		 = "[REBAL] 16.4L W16 Petrol",
 		Description	 = "I hate you if you use this engine. The Block is made of cast iron because I hate you.",
-		Model		 = "models/engine/w16m.mdl",
+		Model		 = "models/engines/w16m.mdl",
 		Sound		 = "acf_engines/w16medium.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
@@ -54,7 +54,7 @@ do
 	Engines.RegisterItem( "32.8-W16", "W16", {
 		Name		 = "[REBAL] 32.8L W16 Petrol",
 		Description	 = "I hate you if you use this engine. The Block is made of cast iron because I hate you.",
-		Model		 = "models/engine/w16b.mdl",
+		Model		 = "models/engines/w16b.mdl",
 		Sound		 = "acf_engines/w16large.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
