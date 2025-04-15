@@ -13,7 +13,7 @@ do
 	Engines.RegisterItem( "2.2-VR6", "VR6", {
 		Name		 = "[ACFE] 2.2L VR6 Petrol",
 		Description	 = "Sporty little VR6, for people who think a V6 is too 'mainstream'",
-		Model		 = "models/engine/vr6s.mdl",
+		Model		 = "models/engines/vr6s.mdl",
 		Sound		 = "acf_engines/vrs.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
@@ -32,7 +32,7 @@ do
 	Engines.RegisterItem( "4.8-VR6", "VR6", {
 		Name		 = "[ACFE] 4.8L VR6 Petrol",
 		Description	 = "Medium sized VR6, A counterculture V6.",
-		Model		 = "models/engine/vr6m.mdl",
+		Model		 = "models/engines/vr6m.mdl",
 		Sound		 = "acf_engines/vrm.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
@@ -51,7 +51,7 @@ do
 	Engines.RegisterItem( "17.2-VR6", "VR6", {
 		Name		 = "[ACFE] 17.2L VR6 Petrol",
 		Description	 = "Massive VR6, perfect for nothing.",
-		Model		 = "models/engine/vr6b.mdl",
+		Model		 = "models/engines/vr6b.mdl",
 		Sound		 = "acf_engines/vrl.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
