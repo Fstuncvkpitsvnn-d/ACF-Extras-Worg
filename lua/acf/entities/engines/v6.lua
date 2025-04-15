@@ -10,7 +10,7 @@ do
 	
 	-- petrolnew
 	
-	Engines.RegisterItem( "3.6-V6", "V6", {
+	Engines.RegisterItem( "3.6-V6-2", "V6", {
 		Name		 = "[WSG] High Feature V6",
 		Description	 = "Economic and powerful, make sure to change oil regularly",
 		Model		 = "models/engines/v6small.mdl",
