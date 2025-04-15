@@ -8,6 +8,7 @@ Engines.Register( "W16", {
 
 -- these engines are pretty OP
 -- i dont think so jigsaw
+-- jigsaw done fixed the balance
 
 do
 	
