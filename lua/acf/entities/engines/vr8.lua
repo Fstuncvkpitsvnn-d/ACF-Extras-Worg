@@ -32,7 +32,7 @@ do
 	Engines.RegisterItem( "9.0-VR8", "VR8", {
 		Name		 = "[ACFE] 9.0L VR8 Petrol",
 		Description	 = "Thirsty, medium VR8, for medium applications.",
-		Model		 = "models/engines/vr8m.mdl",
+		Model		 = "models/engine/vr8m.mdl",
 		Sound		 = "acf_engines/vrm.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
@@ -51,7 +51,7 @@ do
 	Engines.RegisterItem( "18.0-VR8", "VR8", {
 		Name		 = "[ACFE] 18.0L VR8 Petrol",
 		Description	 = "American tank VR8, good overall power and torque, while remaining 'relatively' lightweight.",
-		Model		 = "models/engines/vr8b.mdl",
+		Model		 = "models/engine/vr8b.mdl",
 		Sound		 = "acf_engines/vrl.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
