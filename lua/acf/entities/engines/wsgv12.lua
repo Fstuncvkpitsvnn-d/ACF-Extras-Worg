@@ -84,5 +84,63 @@ do
 		},
 	})
 
+	
+	Engines.RegisterItem( "33.9-V12", "V12", {
+		Name		 = "[WSG] 150HB",	
+		Description	 = "种族灭绝. A 33.9L V12 turbodiesel designed for tanks. Do not expect to pass emissions tests with this engine - It is chinese afterall...",
+		Model		 = "models/engines/v12l.mdl",
+		Sound		 = "acf_engines/v12_diesellarge.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 4000,
+		Torque		 = 5000,
+		FlywheelMass = 2,
+		RPM = {
+			Idle	= 600,
+			Limit	= 3000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+	Engines.RegisterItem( "18.1-V12", "V12", {
+		Name		 = "[WSG] 12V92T-9B90",	
+		Description	 = "Detroit Diesel. Do not expect to pass emissions tests with this engine.",
+		Model		 = "models/engines/v12l.mdl",
+		Sound		 = "acf_engines/v12_diesellarge.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 1750,
+		Torque		 = 2550,
+		FlywheelMass = 1.5,
+		RPM = {
+			Idle	= 600,
+			Limit	= 2800,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+	Engines.RegisterItem( "29.4-V12", "V12", {
+		Name		 = "[WSG] 12V149TI",	
+		Description	 = "Detroit Diesel. Do not expect to pass emissions tests with this engine.",
+		Model		 = "models/engines/v12l.mdl",
+		Sound		 = "acf_engines/v12_diesellarge.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 3900,
+		Torque		 = 4700,
+		FlywheelMass = 2,
+		RPM = {
+			Idle	= 600,
+			Limit	= 2000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
 
 end

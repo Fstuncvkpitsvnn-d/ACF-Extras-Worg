@@ -28,6 +28,25 @@ do
 		},
 	})
 
+	Engines.RegisterItem( "19.0-I6", "I6", {
+		Name		 = "[WSG] L60",	
+		Description	 = "Horrific opposed cylinder engine. This engine produces a symphony of noise and vibration. Runs on gasoline and diesel.",
+		Model		 = "models/engines/inline6l.mdl",
+		Sound		 = "acf_extra/vehiclefx/engines/gnomefather/l60.wav",
+		Fuel		 = { Petrol = true, Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 1500,
+		Torque		 = 2000,
+		FlywheelMass = 1.5,
+		RPM = {
+			Idle	= 600,
+			Limit	= 2600,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
 	
 	
 end
