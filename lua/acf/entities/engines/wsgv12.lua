@@ -17,7 +17,7 @@ do
 		FlywheelMass = 2,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3000,
+			Limit	= 3200,
 		},
 		Preview = {
 			FOV = 80,
@@ -36,7 +36,7 @@ do
 		FlywheelMass = 2,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3000,
+			Limit	= 3200,
 		},
 		Preview = {
 			FOV = 80,
@@ -57,7 +57,7 @@ do
 		FlywheelMass = 1.5,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3800,
+			Limit	= 3000,
 		},
 		Preview = {
 			FOV = 80,
@@ -77,7 +77,7 @@ do
 		FlywheelMass = 2,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3000,
+			Limit	= 3100,
 		},
 		Preview = {
 			FOV = 80,

@@ -9,7 +9,7 @@ do
 	Engines.RegisterItem( "1.2-V4", "V4", {
 		Name		 = "[WSG] Zaporozhets V4",
 		Description	 = "The ZAZ V4 - a compact, air-cooled not-so-workhorse engineered for simplicity",
-		Model		 = "models/engines/v4small.mdl",
+		Model		 = "models/engines/v4s.mdl",
 		Sound		 = "acf_engines/i4_petrolsmall2.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
