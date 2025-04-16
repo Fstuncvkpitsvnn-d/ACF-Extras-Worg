@@ -67,7 +67,7 @@ do
 
 	Engines.RegisterItem( "2.0-I4-GIMPED", "I4", {
 		Name		 = "[WSG] 4B11-NAH",
-		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC. Gimped for CVT applications.",
+		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC on intake only. Gimped for CVT applications.",
 		Model		 = "models/engines/inline4s.mdl",
 		Sound		 = "acf_engines/i4_petrolsmall2.wav",
 		Fuel		 = { Petrol = true },
