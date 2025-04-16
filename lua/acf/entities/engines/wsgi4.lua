@@ -64,6 +64,44 @@ do
 			FOV = 80,
 		},
 	})
+
+	Engines.RegisterItem( "2.0-I4-GIMPED", "I4", {
+		Name		 = "[WSG] 4B11-NAH",
+		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC. Gimped for CVT applications.",
+		Model		 = "models/engines/inline4s.mdl",
+		Sound		 = "acf_engines/i4_petrolsmall2.wav",
+		Fuel		 = { Petrol = true },
+		Type		 = "GenericPetrol",
+		Mass		 = 118,
+		Torque		 = 190,
+		FlywheelMass = 0.2,
+		RPM = {
+			Idle	= 800,
+			Limit	= 4500,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+	Engines.RegisterItem( "2.4-I4", "I4", {
+		Name		 = "[WSG] 4B12-NA",
+		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC. Enlarged bore and stroke.",
+		Model		 = "models/engines/inline4s.mdl",
+		Sound		 = "acf_engines/i4_petrolsmall2.wav",
+		Fuel		 = { Petrol = true },
+		Type		 = "GenericPetrol",
+		Mass		 = 125,
+		Torque		 = 232,
+		FlywheelMass = 0.2,
+		RPM = {
+			Idle	= 800,
+			Limit	= 6500,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
 	
 	-- diesel
 	

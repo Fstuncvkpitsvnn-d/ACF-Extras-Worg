@@ -9,6 +9,7 @@ Engines.Register( "W16", {
 -- these engines are pretty OP
 -- i dont think so jigsaw
 -- jigsaw done fixed the balance
+-- i think the engines are still a bit too strong, but not by much - nerfed the torque a bit on the 8.4L and 16.4L. Also copilot is goated.	
 
 do
 	
@@ -22,7 +23,7 @@ do
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
 		Mass		 = 800,
-		Torque		 = 650,
+		Torque		 = 600,
 		FlywheelMass = 0.5,
 		RPM = {
 			Idle	= 700,
@@ -60,7 +61,7 @@ do
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
 		Mass		 = 5500,
-		Torque		 = 3800,
+		Torque		 = 3400,
 		FlywheelMass = 1,
 		RPM = {
 			Idle	= 900,

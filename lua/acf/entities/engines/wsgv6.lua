@@ -43,6 +43,25 @@ do
 			FOV = 80,
 		},
 	})
+
+	Engines.RegisterItem( "3.0-V6", "V6", {
+		Name		 = "[WSG] 6G72",
+		Description	 = "A sporty 2972cc V6 with twin overhead cams and electronic injection.",
+		Model		 = "models/engines/v6small.mdl",
+		Sound		 = "acf_engines/v6_petrolsmall.wav",
+		Fuel		 = { Petrol = true },
+		Type		 = "GenericPetrol",
+		Mass		 = 155,
+		Torque		 = 278,
+		FlywheelMass = 0.2,
+		RPM = {
+			Idle	= 600,
+			Limit	= 7000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
 	
 	Engines.RegisterItem( "3.9-V6", "V6", {
 		Name		 = "[WSG] High Value V6",
