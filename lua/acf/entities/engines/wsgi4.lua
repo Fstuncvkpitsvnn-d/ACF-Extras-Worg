@@ -102,6 +102,26 @@ do
 			FOV = 80,
 		},
 	})
+
+	
+	Engines.RegisterItem( "2.0-I4-CLASSIC", "I4", {
+		Name		 = "[WSG] 4G63-T",
+		Description	 = "Mitsubishi's little iron fist. A turbocharged, overbuilt engine that is always ready to punch above its weight class.",
+		Model		 = "models/engines/inline4s.mdl",
+		Sound		 = "acf_engines/i4_petrolsmall2.wav",
+		Fuel		 = { Petrol = true },
+		Type		 = "GenericPetrol",
+		Mass		 = 145,
+		Torque		 = 280,
+		FlywheelMass = 0.2,
+		RPM = {
+			Idle	= 800,
+			Limit	= 8000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
 	
 	-- diesel
 	
