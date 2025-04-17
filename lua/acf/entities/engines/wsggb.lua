@@ -1,13 +1,43 @@
 local ACF       = ACF
 local Gearboxes = ACF.Classes.Gearboxes
 
-Gearboxes.Register( "CustomGearboxes", {
-	Name = "Specialized Gearboxes",
+if not Gearboxes.RegisterItem then
+	Gearboxes.RegisterItem  = function(name,cat,data) end
+end
+if not Gearboxes.Register then
+	Gearboxes.Register  = function(name,cat,data) end
+end
+Gearboxes.Register("Special-Gearbox", {
+	Name		= "Special-Gearbox",
+	CreateMenu	= ACF.ManualGearboxMenu,
+	Gears = {
+		Min	= 0,
+		Max	= 14,
+	}
 })
+
+--I want to kill myself.
+
+do
+	local function ACF_DefineGearboxold(name,data)
+			
+		Gearboxes.RegisterItem(name, data.category, {
+			Name		= data.name,
+			Description	= data.desc,
+			Model		= data.model,
+			Mass		= data.weight,
+			Switch		= data.switch,
+			MaxTorque	= data.maxtq,
+			Preview = {
+				FOV = 125,
+			},
+		})
+	end
+
 
 do
 
-    ACF_DefineGearboxold( "2GTT", {
+    ACF_DefineGearboxold( "2GTTC", {
 		name = "2F870TA",
 		desc = "A 2 speed fully-reversing gearbox. Designed for extreme duty vehicles and reliability.",
 		model = "models/engines/transaxial_l.mdl",
@@ -25,7 +55,7 @@ do
 			[ -2 ] = -0.2
         }}),
 
-        ACF_DefineGearboxold( "14GT", {
+        ACF_DefineGearboxold( "14GTTC", {
             name = "10F800N",
             desc = "A 10 speed gearbox with 4 seperate reverse gears. Designed for extreme duty vehicles and reliability.",
             model = "models/engines/transaxial_l.mdl",
@@ -60,3 +90,5 @@ do
 
 
 end
+
+--test 4 at this point...
