@@ -49,10 +49,6 @@ do
 		Preview = {
 			FOV = 125,
 		},
-		Gears = {
-			Min	= -2,
-			Max	=  2,
-		},
 	})
 
 	Gearboxes.RegisterItem( "14GTTC", "Special-Gearbox", {
@@ -65,10 +61,6 @@ do
 		DualClutch = true,
 		Preview = {
 			FOV = 85,
-		},
-		Gears = {
-			Min	= 0,
-			Max	= 14,
 		},
 	})
 
