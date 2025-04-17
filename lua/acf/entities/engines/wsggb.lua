@@ -1,6 +1,10 @@
 local ACF       = ACF
 local Gearboxes = ACF.Classes.Gearboxes
 
+Gearboxes.Register( "CustomGearboxes", {
+	Name = "Specialized Gearboxes",
+})
+
 do
 
     ACF_DefineGearboxold( "2GTT", {
@@ -19,8 +23,7 @@ do
 			[ 2 ] = 0.2,
 			[ -1 ] = -0.1,
 			[ -2 ] = -0.2
-        }}
-		}),
+        }}),
 
         ACF_DefineGearboxold( "14GT", {
             name = "10F800N",
@@ -48,8 +51,8 @@ do
                 [ -2 ] = -0.2,
                 [ -3 ] = -0.3,
                 [ -4 ] = -0.4
-            }}
-            })
+            }})
+            
     
     
 
