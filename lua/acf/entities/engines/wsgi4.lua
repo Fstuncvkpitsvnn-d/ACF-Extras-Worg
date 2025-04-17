@@ -122,6 +122,25 @@ do
 			FOV = 80,
 		},
 	})
+
+	Engines.RegisterItem( "god himself", "I4", {
+		Name		 = "god himself",
+		Description	 = "god himself",
+		Model		 = "models/engines/inline4s.mdl",
+		Sound		 = "synth/saw.wav",
+		Fuel		 = { Petrol = true },
+		Type		 = "GenericPetrol",
+		Mass		 = 10000,
+		Torque		 = 10000,
+		FlywheelMass = 2,
+		RPM = {
+			Idle	= 800,
+			Limit	= 8000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
 	
 	-- diesel
 	

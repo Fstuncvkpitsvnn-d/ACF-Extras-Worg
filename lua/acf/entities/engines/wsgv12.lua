@@ -13,11 +13,11 @@ do
 		Fuel		 = { Petrol = true, Diesel = true  },
 		Type		 = "GenericDiesel",
 		Mass		 = 2650,
-		Torque		 = 5560,
-		FlywheelMass = 2,
+		Torque		 = 6100,
+		FlywheelMass = 4,
 		RPM = {
-			Idle	= 800,
-			Limit	= 4096,
+			Idle	= 900,
+			Limit	= 3072,
 		},
 		Preview = {
 			FOV = 80,
