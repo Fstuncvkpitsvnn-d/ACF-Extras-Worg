@@ -5,6 +5,25 @@ local Engines = ACF.Classes.Engines
 do
 	--petrolnew
 
+	Engines.RegisterItem( "WSG 49.2-V12-Future", "V12", {
+		Name		 = "[WSG] MTz-960-12V",	
+		Description	 = "Compact MTz-960 - made by removing two cylinders. Features state-of-the-art injection, lightweight construction, however a speed governor is in place for reliability.",
+		Model		 = "models/engines/v12l.mdl",
+		Sound		 = "acf_engines/v12_petrollargeorig.wav",
+		Fuel		 = { Petrol = true, Diesel = true  },
+		Type		 = "GenericDiesel",
+		Mass		 = 2650,
+		Torque		 = 5560,
+		FlywheelMass = 2,
+		RPM = {
+			Idle	= 800,
+			Limit	= 4096,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
 	Engines.RegisterItem( "WSG 29.5-V12", "V12", {
 		Name		 = "[WSG] HL-295",	
 		Description	 = "Good god, this thing is massive. A 29.5L V12 made by Maybach - keep this thing away from Poland.",
@@ -17,7 +36,7 @@ do
 		FlywheelMass = 2,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3600,
+			Limit	= 3000,
 		},
 		Preview = {
 			FOV = 80,

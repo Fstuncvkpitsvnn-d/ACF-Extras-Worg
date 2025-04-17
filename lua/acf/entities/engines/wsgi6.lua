@@ -40,7 +40,7 @@ do
 		FlywheelMass = 1.5,
 		RPM = {
 			Idle	= 600,
-			Limit	= 2600,
+			Limit	= 3600,
 		},
 		Preview = {
 			FOV = 80,
