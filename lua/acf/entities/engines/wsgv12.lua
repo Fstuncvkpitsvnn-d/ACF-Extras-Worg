@@ -53,11 +53,11 @@ do
 		Fuel		 = { Diesel = true },
 		Type		 = "GenericDiesel",
 		Mass		 = 2600,
-		Torque		 = 4750,
+		Torque		 = 4850,
 		FlywheelMass = 1.5,
 		RPM = {
 			Idle	= 600,
-			Limit	= 3000,
+			Limit	= 3200,
 		},
 		Preview = {
 			FOV = 80,
@@ -93,7 +93,7 @@ do
 		Fuel		 = { Diesel = true },
 		Type		 = "GenericDiesel",
 		Mass		 = 4000,
-		Torque		 = 5000,
+		Torque		 = 4200,
 		FlywheelMass = 2,
 		RPM = {
 			Idle	= 600,
@@ -112,7 +112,7 @@ do
 		Fuel		 = { Diesel = true },
 		Type		 = "GenericDiesel",
 		Mass		 = 1750,
-		Torque		 = 2550,
+		Torque		 = 2850,
 		FlywheelMass = 1.5,
 		RPM = {
 			Idle	= 600,
@@ -136,6 +136,25 @@ do
 		RPM = {
 			Idle	= 600,
 			Limit	= 2000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+	Engines.RegisterItem( "27.0-V12", "V12", {
+		Name		 = "[WSG] DV27K",	
+		Description	 = "Altay.",
+		Model		 = "models/engines/v12l.mdl",
+		Sound		 = "acf_engines/v12_diesellarge.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 2500,
+		Torque		 = 4000,
+		FlywheelMass = 2,
+		RPM = {
+			Idle	= 600,
+			Limit	= 2500,
 		},
 		Preview = {
 			FOV = 80,

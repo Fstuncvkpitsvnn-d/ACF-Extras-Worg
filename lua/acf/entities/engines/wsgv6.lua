@@ -81,5 +81,29 @@ do
 			FOV = 80,
 		},
 	})
-	
+
+
+	--dieselnew
+
+
+	Engines.RegisterItem( "22.4-V6", "V6", {
+		Name		 = "[WSG] MB 833",
+		Description	 = "TAM.",
+		Model		 = "models/engines/v6large.mdl",
+		Sound		 = "acf_engines/v8_dieselmedium2.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 2000,
+		Torque		 = 2000,
+		FlywheelMass = 1.5,
+		RPM = {
+			Idle	= 700,
+			Limit	= 3800,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+
 end
