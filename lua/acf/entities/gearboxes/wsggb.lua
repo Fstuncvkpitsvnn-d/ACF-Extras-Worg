@@ -2,10 +2,12 @@ local ACF       = ACF
 local Gearboxes = ACF.Classes.Gearboxes
 
 if not Gearboxes.RegisterItem then
-	Gearboxes.RegisterItem  = function(name,cat,data) error("WSG ACF: Gearboxes.RegisterItem didnt load") end
+	error("WSG ACF: Gearboxes.RegisterItem didnt load")
+	Gearboxes.RegisterItem  = function(name,cat,data) end
 end
 if not Gearboxes.Register then
-	Gearboxes.Register  = function(name,cat,data) error("WSG ACF: Gearboxes.Register didnt load") end
+	error("WSG ACF: Gearboxes.Register didnt load")
+	Gearboxes.Register  = function(name,cat,data) end
 end
 
 local function InitGearbox(Gearbox)
