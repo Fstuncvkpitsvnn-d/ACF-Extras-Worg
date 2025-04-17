@@ -8,48 +8,32 @@ if not Gearboxes.Register then
 	Gearboxes.Register  = function(name,cat,data) error("WSG ACF: Gearboxes.Register didnt load") end
 end
 
+local function InitGearbox(Gearbox)
+	local Gears = Gearbox.Gears
+
+	Gearbox.CVT      = true
+	Gearbox.CVTRatio = 0
+
+	WireLib.TriggerOutput(Gearbox, "Min Target RPM", Gears.MinRPM)
+	WireLib.TriggerOutput(Gearbox, "Max Target RPM", Gears.MaxRPM)
+end
+
 Gearboxes.Register("Special-Gearbox", {
 	Name		= "Special-Gearbox",
-	CreateMenu	= ACF.ManualGearboxMenu,
+	CreateMenu	= ACF.CVTGearboxMenu,
 	Gears = {
-		Min	= 0,
-		Max	= 14,
+		Min		= 0,
+		Max		= 2,
 	},
+	OnSpawn = InitGearbox,
+	OnUpdate = InitGearbox,
+	VerifyData = function(Data)
 })
-
 
 --I want to kill myself.
 --don't do that, also don't worry im here to help with the coding side of things
 
-local function ACF_DefineGearboxold(name,data)
-	Gearboxes.RegisterItem(name, data.category, {
-		Name		= data.name,
-		Description	= data.desc,
-		Model		= data.model,
-		Mass		= data.weight,
-		Switch		= data.switch,
-		MaxTorque	= data.maxtq,
-		Preview = {
-			FOV = 125,
-		},
-	})
-end
-
-
 do
-
-    Gearboxes.RegisterItem( "2GTTC", "Special-Gearbox", {
-		Name = "2F870TA",
-		Description = "A 2 speed fully-reversing gearbox. Designed for extreme duty vehicles and reliability.",
-		Model = "models/engines/transaxial_l.mdl",
-		Mass = 400,
-		Switch = 0.1,
-		MaxTorque = 8700,
-		DualClutch = true,
-		Preview = {
-			FOV = 125,
-		},
-	})
 
 	Gearboxes.RegisterItem( "14GTTC", "Special-Gearbox", {
 		Name = "10F800N",
