@@ -6,7 +6,7 @@ do
 	
 	-- petrolnew
 	
-	Engines.RegisterItem( "3.6-V6-2", "V6", {
+	Engines.RegisterItem( "WSG 3.6-V6-2", "V6", {
 		Name		 = "[WSG] High Feature V6",
 		Description	 = "Economic and powerful, make sure to change oil regularly",
 		Model		 = "models/engines/v6small.mdl",
@@ -25,7 +25,7 @@ do
 		},
 	})
 	
-	Engines.RegisterItem( "3.8-V6", "V6", {
+	Engines.RegisterItem( "WSG 3.8-V6", "V6", {
 		Name		 = "[WSG] 6G75",
 		Description	 = "Oh how I miss you. A no-frills 3828cc V6 with single overhead cams and electronic injection.",
 		Model		 = "models/engines/v6small.mdl",
@@ -44,7 +44,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "3.0-V6", "V6", {
+	Engines.RegisterItem( "WSG 3.0-V6", "V6", {
 		Name		 = "[WSG] 6G72",
 		Description	 = "A sporty 2972cc V6 with twin overhead cams and electronic injection.",
 		Model		 = "models/engines/v6small.mdl",
@@ -63,7 +63,7 @@ do
 		},
 	})
 	
-	Engines.RegisterItem( "3.9-V6", "V6", {
+	Engines.RegisterItem( "WSG 3.9-V6", "V6", {
 		Name		 = "[WSG] High Value V6",
 		Description	 = "Allegedly high value, One thing's for sure, it's a V6.",
 		Model		 = "models/engines/v6small.mdl",
@@ -86,7 +86,7 @@ do
 	--dieselnew
 
 
-	Engines.RegisterItem( "22.4-V6", "V6", {
+	Engines.RegisterItem( "WSG 22.4-V6", "V6", {
 		Name		 = "[WSG] MB 833",
 		Description	 = "TAM.",
 		Model		 = "models/engines/v6large.mdl",

@@ -9,7 +9,7 @@ do
 	
 	-- dieselnew
 	
-	Engines.RegisterItem( "18.1-I6", "I6", {
+	Engines.RegisterItem( "WSG 18.1-I6", "I6", {
 		Name		 = "[WSG] C18",	
 		Description	 = "Caterpillar 6 cylinder turbodiesel. Nothing special, Nothing wonderful.",
 		Model		 = "models/engines/inline6l.mdl",
@@ -28,7 +28,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "19.0-I6", "I6", {
+	Engines.RegisterItem( "WSG 19.0-I6", "I6", {
 		Name		 = "[WSG] L60",	
 		Description	 = "Horrific opposed cylinder engine. This engine produces a symphony of noise and vibration. Runs on gasoline and diesel.",
 		Model		 = "models/engines/inline6l.mdl",

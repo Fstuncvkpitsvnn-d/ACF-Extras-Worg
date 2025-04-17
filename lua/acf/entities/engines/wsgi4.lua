@@ -25,9 +25,9 @@ do
 		},
 	})
 	
-	-- new petrol
+	-- newpetrol
 	
-	Engines.RegisterItem( "2.0-I4", "I4", {
+	Engines.RegisterItem( "WSG 2.0-I4", "I4", {
 		Name		 = "[WSG] 4B11-NA",
 		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC.",
 		Model		 = "models/engines/inline4s.mdl",
@@ -46,7 +46,7 @@ do
 		},
 	})
 	
-	Engines.RegisterItem( "2.0-I4-T", "I4", {
+	Engines.RegisterItem( "WSG 2.0-I4-T", "I4", {
 		Name		 = "[WSG] 4B11-T",
 		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC, Turbocharged. USM",
 		Model		 = "models/engines/inline4s.mdl",
@@ -65,7 +65,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "2.0-I4-GIMPED", "I4", {
+	Engines.RegisterItem( "WSG 2.0-I4-GIMPED", "I4", {
 		Name		 = "[WSG] 4B11-NAH",
 		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC on intake only. Gimped for CVT applications.",
 		Model		 = "models/engines/inline4s.mdl",
@@ -84,7 +84,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "2.4-I4", "I4", {
+	Engines.RegisterItem( "WSG 2.4-I4", "I4", {
 		Name		 = "[WSG] 4B12-NA",
 		Description	 = "Alloy 4 cylinder, Twin-Cam, MIVEC. Enlarged bore and stroke.",
 		Model		 = "models/engines/inline4s.mdl",
@@ -104,7 +104,7 @@ do
 	})
 
 	
-	Engines.RegisterItem( "2.0-I4-CLASSIC", "I4", {
+	Engines.RegisterItem( "WSG 2.0-I4-CLASSIC", "I4", {
 		Name		 = "[WSG] 4G63-T",
 		Description	 = "Mitsubishi's little iron fist. A turbocharged, overbuilt engine that is always ready to punch above its weight class.",
 		Model		 = "models/engines/inline4s.mdl",
