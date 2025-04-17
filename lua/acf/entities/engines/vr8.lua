@@ -13,7 +13,7 @@ do
 	Engines.RegisterItem( "5.7-VR8", "VR8", {
 		Name		 = "[REBAL] 5.7L VR8 Petrol",
 		Description	 = "Car sized VR8, good power and mid range torque.",
-		Model		 = "models/engines/vr8.mdl",
+		Model		 = "models/engines/vr8s.mdl",
 		Sound		 = "acf_engines/vrs.wav",
 		Fuel		 = { Petrol = true },
 		Type		 = "GenericPetrol",
