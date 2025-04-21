@@ -14,7 +14,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 2650,
 		Torque		 = 6100,
-		FlywheelMass = 4,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 900,
 			Limit	= 3072,
@@ -33,7 +33,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 2000,
 		Torque		 = 4000,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3000,
@@ -52,7 +52,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 1750,
 		Torque		 = 3000,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3600,
@@ -75,7 +75,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 2600,
 		Torque		 = 4850,
-		FlywheelMass = 1.5,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3200,
@@ -96,7 +96,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 2800,
 		Torque		 = 5000,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3800,
@@ -117,7 +117,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 4000,
 		Torque		 = 4000,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3000,
@@ -138,7 +138,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1750,
 		Torque		 = 2950,
-		FlywheelMass = 1.5,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 2800,
@@ -159,7 +159,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 3900,
 		Torque		 = 4800,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 2000,
@@ -180,7 +180,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 2500,
 		Torque		 = 4000,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 2500,

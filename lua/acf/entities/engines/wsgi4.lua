@@ -15,7 +15,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 160,
 		Torque		 = 165,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 4000,
@@ -36,7 +36,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 118,
 		Torque		 = 200,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 8000,
@@ -55,7 +55,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 140,
 		Torque		 = 407,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 8000,
@@ -74,7 +74,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 118,
 		Torque		 = 200,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 4500,
@@ -93,7 +93,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 125,
 		Torque		 = 232,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 6500,
@@ -113,7 +113,7 @@ do
 		Type		 = "GenericPetrol",
 		Mass		 = 145,
 		Torque		 = 300,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 800,
 			Limit	= 8000,
@@ -153,7 +153,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 45,
 		Torque		 = 130,
-		FlywheelMass = 0.2,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 650,
 			Limit	= 3100,
@@ -191,7 +191,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 110,
 		Torque		 = 180,
-		FlywheelMass = 0.21,
+		FlywheelMass = 1,
 		RPM = {
 			Idle	= 630,
 			Limit	= 4700,
@@ -200,5 +200,63 @@ do
 			FOV = 80,
 		},
 	})
+
+	Engines.RegisterItem( "3.6-I4", "I4", {
+		Name		 = "[WSG] IFI 4D36-TA",
+		Description	 = "New generation diesel designed for medium duty vehicles. Turbocharged, Aftercooled.",
+		Model		 = "models/engines/inline4m.mdl",
+		Sound		 = "acf_engines/i4_dieselmedium.wav",
+		Fuel		 = { Diesel = true },
+		Type		 = "GenericDiesel",
+		Mass		 = 390,
+		Torque		 = 590,
+		FlywheelMass = 5,
+		RPM = {
+			Idle	= 900,
+			Limit	= 4500,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+	
+	Engines.RegisterItem( "4.0-I4", "I4", {
+		Name		 = "[WSG] IFI 4P40-NA",
+		Description	 = "A rather large, modern, jury duty inline 4. Designed medium duty vehicles. Multifuel.",
+		Model		 = "models/engines/inline4m.mdl",
+		Sound		 = "acf_engines/i4_dieselmedium.wav",
+		Fuel		 = { Petrol = true , Diesel = true},
+		Type		 = "GenericPetrol",
+		Mass		 = 350,
+		Torque		 = 400,
+		FlywheelMass = 5,
+		RPM = {
+			Idle	= 900,
+			Limit	= 5000,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
+	Engines.RegisterItem( "7.3-I4", "I4", {
+		Name		 = "[WSG] IFI 4D80-TTA",
+		Description	 = "An older diesel designed for reliability in quick start situations. Twin Turbocharged, Aftercooled.",
+		Model		 = "models/engines/inline4l.mdl",
+		Sound		 = "acf_engines/i4_dieselmedium.wav",
+		Fuel		 = { Petrol = true , Diesel = true},
+		Type		 = "GenericPetrol",
+		Mass		 = 560,
+		Torque		 = 735,
+		FlywheelMass = 5,
+		RPM = {
+			Idle	= 900,
+			Limit	= 3800,
+		},
+		Preview = {
+			FOV = 80,
+		},
+	})
+
 
 end
