@@ -2,11 +2,15 @@ local ACF = ACF
 local Engines = ACF.Classes.Engines
 
 
+Engines.Register("WSGV8", {
+	Name = "[WSG] V8 Engine",
+})
+
 do
 	
 	-- petrolnew
 	
-	Engines.RegisterItem("WSG 4.6-V8", "V8", {
+	Engines.RegisterItem("WSG 4.6-V8", "WSGV8", {
 		Name		 = "[WSG] Northstar V8",
 		Description	 = "A Caddie 4.6L V8 with DOHC and VVT. A bit of a gas guzzler, but it has a lot of power. Don't let it bankrupt you!",
 		Model		 = "models/engines/v8s.mdl",
@@ -27,7 +31,7 @@ do
 
 	--dieselnew
 
-	Engines.RegisterItem("WSG 7.3-V8-NA", "V8", {
+	Engines.RegisterItem("WSG 7.3-V8-NA", "WSGV8", {
 		Name		 = "[WSG] T444E-NA",
 		Description	 = "A Navistar 7.3L Diesel. Oh man is this thing slow, But it has a lot of torque!",
 		Model		 = "models/engines/v8m.mdl",
@@ -36,7 +40,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 450,
 		Torque		 = 650,
-		FlywheelMass = 0.75,
+		FlywheelMass = 5,
 		RPM = {
 			Idle	= 470,
 			Limit	= 3200,
@@ -47,7 +51,7 @@ do
 	})
 
 	
-	Engines.RegisterItem("WSG 7.3-V8-T", "V8", {
+	Engines.RegisterItem("WSG 7.3-V8-T", "WSGV8", {
 		Name		 = "[WSG] T444E-T",
 		Description	 = "A Navistar 7.3L Diesel. The turbocharger makes this thing a lot more powerful, but it is still sluggish.",
 		Model		 = "models/engines/v8m.mdl",
@@ -56,7 +60,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 500,
 		Torque		 = 950,
-		FlywheelMass = 0.75,
+		FlywheelMass = 5,
 		RPM = {
 			Idle	= 470,
 			Limit	= 3200,
@@ -70,7 +74,7 @@ do
 	--dieselnew
 
 
-	Engines.RegisterItem("24.0-V8", "V8", {
+	Engines.RegisterItem("24.0-V8", "WSGV8", {
 		Name		 = "[WSG] MB871",	
 		Description	 = "K1.",
 		Model		 = "models/engines/v8l.mdl",
@@ -79,7 +83,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1550,
 		Torque		 = 2200,
-		FlywheelMass = 2,
+		FlywheelMass = 5,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3200,

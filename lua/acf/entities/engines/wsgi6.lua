@@ -2,6 +2,10 @@ local ACF = ACF
 local Engines = ACF.Classes.Engines
 
 
+Engines.Register("WSGI6", {
+	Name = "[WSG] I6 Engine",
+})
+
 do
 	--petrolnew
 
@@ -9,7 +13,7 @@ do
 	
 	-- dieselnew
 	
-	Engines.RegisterItem( "WSG 18.1-I6", "I6", {
+	Engines.RegisterItem( "WSG 18.1-I6", "WSGI6", {
 		Name		 = "[WSG] C18",	
 		Description	 = "Caterpillar 6 cylinder turbodiesel. Nothing special, Nothing wonderful.",
 		Model		 = "models/engines/inline6l.mdl",
@@ -18,7 +22,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1750,
 		Torque		 = 3000,
-		FlywheelMass = 1.5,
+		FlywheelMass = 5,
 		RPM = {
 			Idle	= 600,
 			Limit	= 2200,
@@ -28,7 +32,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "WSG 19.0-I6", "I6", {
+	Engines.RegisterItem( "WSG 19.0-I6", "WSGI6", {
 		Name		 = "[WSG] L60",	
 		Description	 = "Horrific opposed cylinder engine. This engine produces a symphony of noise and vibration. Runs on gasoline and diesel.",
 		Model		 = "models/engines/inline6l.mdl",
@@ -37,7 +41,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1500,
 		Torque		 = 2000,
-		FlywheelMass = 1.5,
+		FlywheelMass = 5,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3600,

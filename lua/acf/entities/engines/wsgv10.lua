@@ -2,10 +2,14 @@ local ACF = ACF
 local Engines = ACF.Classes.Engines
 
 
+Engines.Register("WSGV10", {
+	Name = "[WSG] V10 Engine",
+})
+
 do
 	--dieselnew
 
-	Engines.RegisterItem( "WSG 21.5-V10", "V10", {
+	Engines.RegisterItem( "WSG 21.5-V10", "WSGV10", {
 		Name		 = "[WSG] 10ZG",	
 		Description	 = "Mitsubishi V10 turbodiesel. Nya Nya! Omaneko is my other boywife, besides Aak.",
 		Model		 = "models/engines/v10big.mdl",
@@ -14,7 +18,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1850,
 		Torque		 = 4410,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3000,
@@ -24,7 +28,7 @@ do
 		},
 	})
 
-	Engines.RegisterItem( "WSG 20.0-V10", "V10", {
+	Engines.RegisterItem( "WSG 20.0-V10", "WSGV10", {
 		Name		 = "[WSG] ZA35",	
 		Description	 = "Who the fuck knows? I don't. This is aproximate.",
 		Model		 = "models/engines/v10big.mdl",
@@ -33,7 +37,7 @@ do
 		Type		 = "GenericDiesel",
 		Mass		 = 1800,
 		Torque		 = 3500,
-		FlywheelMass = 2,
+		FlywheelMass = 7,
 		RPM = {
 			Idle	= 600,
 			Limit	= 3200,
