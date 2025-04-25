@@ -2,7 +2,7 @@ local ACF = ACF
 local Engines = ACF.Classes.Engines
 
 Engines.Register( "VR6", {
-	Name = "[WSG] VR6 Engine",
+	Name = "VR6 Engine",
 })
 
 -- inital balance on specs. 2025-04-15

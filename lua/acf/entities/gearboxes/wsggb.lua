@@ -2,10 +2,12 @@ local ACF       = ACF
 local Gearboxes = ACF.Classes.Gearboxes
 
 if not Gearboxes.RegisterItem then
-	Gearboxes.RegisterItem  = function(name,cat,data) error("WSG ACF: Gearboxes.RegisterItem didnt load") end
+	error("WSG ACF: Gearboxes.RegisterItem didnt load")
+	Gearboxes.RegisterItem  = function(name,cat,data) end
 end
 if not Gearboxes.Register then
-	Gearboxes.Register  = function(name,cat,data) error("WSG ACF: Gearboxes.Register didnt load") end
+	error("WSG ACF: Gearboxes.Register didnt load")
+	Gearboxes.Register  = function(name,cat,data) end
 end
 
 local function InitGearbox(Gearbox)
@@ -28,6 +30,47 @@ Gearboxes.Register("Special-Gearbox", {
 	OnSpawn = InitGearbox,
 	OnUpdate = InitGearbox,
 	VerifyData = function(Data)
+		local Min, Max = Data.MinRPM, Data.MaxRPM
+
+		Data.Gears[1] = 0.01
+
+		if not Min then
+			Min = ACF.CheckNumber(Data.Gear3, 3000)
+
+			Data.Gear3 = nil
+		end
+
+		if not Max then
+			Max = ACF.CheckNumber(Data.Gear4, 5000)
+
+			Data.Gear4 = nil
+		end
+
+		Data.MinRPM = math.Clamp(Min, 1, 9900)
+		Data.MaxRPM = math.Clamp(Max, Data.MinRPM + 100, 10000)
+	end,
+	SetupInputs = function(_, List)
+		List[#List + 1] = "CVT Ratio (Manually sets the gear ratio on the gearbox.)"
+	end,
+	SetupOutputs = function(_, List)
+		local Count = #List
+
+		List[Count + 1] = "Min Target RPM (Sets the lower targeted RPM for the CVT to maintain.)"
+		List[Count + 2] = "Max Target RPM (Sets the upper targeted RPM for the CVT to maintain.)"
+	end,
+	OnLast = function(Gearbox)
+		Gearbox.CVT      = nil
+		Gearbox.CVTRatio = nil
+	end,
+	GetGearsText = function(Gearbox)
+		local Text    = "Reverse Gear: %s\nTarget: %s - %s RPM"
+		local Gears   = Gearbox.Gears
+		local Reverse = math.Round(Gears[2], 2)
+		local Min     = math.Round(Gearbox.MinRPM)
+		local Max     = math.Round(Gearbox.MaxRPM)
+
+		return Text:format(Reverse, Min, Max)
+	end,
 })
 
 --I want to kill myself.
