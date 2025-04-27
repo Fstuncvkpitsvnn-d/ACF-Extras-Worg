@@ -208,8 +208,8 @@ do
 		Sound		 = "acf_engines/i4_dieselmedium.wav",
 		Fuel		 = { Diesel = true },
 		Type		 = "GenericDiesel",
-		Mass		 = 390,
-		Torque		 = 590,
+		Mass		 = 360,
+		Torque		 = 520,
 		FlywheelMass = 5,
 		RPM = {
 			Idle	= 900,
